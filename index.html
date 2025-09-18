@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--character set “UTF-8” refers to Unicode-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--for mobile devices-->
+    <title>Rumpelstilzchen Dev</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <nav class="main-navigation page-header__item" aria-label="Primary">
+        <a href="index.html" class="page-header__item">
+          <img src="img/logo.png" alt="Rumpelstilzchen Dev" id="header-logo" />
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          aria-label="Menu"
+        >
+          <!-- hamburger icon -->
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </button>
+
+        <ul id="primary-nav" class="navigation-list">
+          <li><a href="#" class="navigation-list__item active">Web Dev</a></li>
+          <li>
+            <a href="#certs" class="navigation-list__item">Certifications</a>
+          </li>
+          <li><a href="#contact" class="navigation-list__item">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="animation-section">
+        <div class="text-animation desktop-only" id="desktop-animation">
+          <h1>
+            <span>What may I create for you?</span>
+            <div class="message">
+              <div class="word1">a RESTful API</div>
+              <div class="word2">a unique Website</div>
+              <div class="word3">an AWS environment</div>
+            </div>
+          </h1>
+        </div>
+
+        <div class="hero-text" id="mobile-animation">
+          <h1>What may I create for you?</h1>
+        </div>
+      </section>
+
+      <section id="certs" class="credentials-section">
+        <div class="credentials-heading">
+          <h2>I proudly present...</h2>
+        </div>
+
+        <!-- Certifications carousel (mobile & tablet only) -->
+        <div
+          class="carousel mobile-tablet-only"
+          id="certs-carousel"
+          aria-label="Certifications"
+        >
+          <div class="carousel__track">
+            <a class="slide webdev" href="files/webdev.pdf" target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a
+              class="slide agile"
+              href="https://www.credly.com/badges/2e38ce00-f11f-4674-bb9f-aed221dfc2ee/public_url"
+              target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a class="slide ce2" href="files/ce2.pdf" target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a
+              class="slide prompt"
+              href="https://www.credly.com/badges/8bbac0dd-ad48-4392-88e8-dcbe61160ae5/public_url"
+              target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a
+              class="slide lll"
+              href="https://www.credly.com/badges/c435ac0c-499a-4037-a43c-64d06e15c1c7/public_url"
+              target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a class="slide aws" href="files/aws.pdf" target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a class="slide aws-2" href="files/aws-2.pdf" target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+          </div>
+          <div
+            class="carousel__dots"
+            role="tablist"
+            aria-label="Certifications pagination"
+          ></div>
+        </div>
+
+        <!-- Projects carousel (mobile & tablet only) -->
+        <div
+          class="carousel mobile-tablet-only"
+          id="projects-carousel"
+          aria-label="Projects"
+        >
+          <div class="carousel__track">
+            <a
+              class="slide todo"
+              href="https://rumpeltin.github.io/get-it-done/"
+              target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a
+              class="slide tatiana"
+              href="http://www.detisdeli.co.uk"
+              target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a
+              class="slide jay"
+              href="http://www.jaythebike.co.uk"
+              target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+            <a
+              class="slide pokemon"
+              href="https://rumpeltin.github.io/Pokedex-App/"
+              target="_blank"
+              ><span class="link-spanner"></span
+            ></a>
+          </div>
+          <div
+            class="carousel__dots"
+            role="tablist"
+            aria-label="Projects pagination"
+          ></div>
+        </div>
+
+        <!-- Credentials row (desktop only) -->
+        <div class="cert-container desktop-only">
+          <div class="cert-heading">
+            <h3>My Certifications</h3>
+            <button
+              class="button certs-open-btn desktop-only"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="certs-modal"
+            >
+              Click to see more
+            </button>
+          </div>
+
+          <div class="vl-4"></div>
+
+          <div class="certifications">
+            <div class="agile grow">
+              <a
+                href="https://www.credly.com/badges/2e38ce00-f11f-4674-bb9f-aed221dfc2ee/public_url"
+                target="_blank"
+                ><span class="link-spanner"></span
+              ></a>
+            </div>
+            <div class="ce2 grow">
+              <a href="files/ce2.pdf" target="_blank"
+                ><span class="link-spanner"></span
+              ></a>
+            </div>
+            <div class="prompt grow">
+              <a
+                href="https://www.credly.com/badges/8bbac0dd-ad48-4392-88e8-dcbe61160ae5/public_url"
+                target="_blank"
+                ><span class="link-spanner"></span
+              ></a>
+            </div>
+            <div class="aws grow">
+              <a
+                href="https://www.credly.com/badges/21520794-712b-47ed-a061-8f269d7c264f/public_url"
+                target="_blank"
+                ><span class="link-spanner"></span
+              ></a>
+            </div>
+            <div class="aws-2 grow">
+              <a href="files/aws-2.pdf" target="_blank"
+                ><span class="link-spanner"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj-container desktop-only">
+          <div class="projects">
+            <div class="todo grow">
+              <a
+                href="https://rumpeltin.github.io/get-it-done/"
+                target="_blank"
+              >
+                <span class="link-spanner"></span
+              ></a>
+            </div>
+
+            <div class="tatiana grow">
+              <a href="http://www.detisdeli.co.uk" target="_blank">
+                <span class="link-spanner"></span
+              ></a>
+            </div>
+
+            <div class="jay grow">
+              <a href="http://www.jaythebike.co.uk" target="_blank">
+                <span class="link-spanner"></span
+              ></a>
+            </div>
+
+            <div class="pokemon grow">
+              <a
+                href="https://rumpeltin.github.io/Pokedex-App/"
+                target="_blank"
+              >
+                <span class="link-spanner"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="vl-4"></div>
+
+          <div class="cert-heading">
+            <h3>Latest Projects</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="contact-heading">
+          <h3>Questions? <br class="desktop-tablet-only" />Suggestions?</h3>
+        </div>
+
+        <div class="webdev-contact-container">
+          <div class="webdev-contact-details">
+            <div class="contact-call">
+              <h4>Give me a call:</h4>
+              <a
+                id="UK_number"
+                href="tel:+447553627809"
+                class="link-flag flag-uk"
+                >+44 7553 627809</a
+              ><br />
+              <a
+                id="DE_number"
+                href="tel:+4915254166660"
+                class="link-flag flag-de"
+                >+49 1525 4166660</a
+              ><br />
+            </div>
+
+            <div class="contact-email">
+              <h4>Send me an email:</h4>
+              <a id="email" href="mailto:n@rumpeltin.io">n@rumpeltin.io</a>
+            </div>
+
+            <div class="contact-socials">
+              <h4>Connect online:</h4>
+              <a
+                href="https://github.com/rumpeltin/"
+                target="_blank"
+                id="social-github"
+              >
+                <img
+                  src="img/github.svg"
+                  alt="github"
+                  width="40"
+                  height="40"
+                  class="grow"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/rumpeltin/"
+                target="_blank"
+                id="social-linkedin"
+              >
+                <img
+                  src="img/linkedin.png"
+                  alt="linkedin"
+                  width="40"
+                  height="40"
+                  class="grow"
+              /></a>
+            </div>
+          </div>
+
+          <div class="hl mobile-only"></div>
+
+          <div class="cv">
+            <h3 class="desktop-tablet-only">My CV</h3>
+            <p>
+              Interested<span class="desktop-only"> in working together</span
+              >?<br />
+              <span class="desktop-only">Click the button to d</span
+              ><span class="mobile-tablet-only">D</span>ownload my CV.<br />
+              <span class="desktop-only"
+                >I look forward to hearing about your idea!</span
+              >
+            </p>
+            <br />
+            <a
+              href="files/cv.pdf"
+              target="_blank"
+              class="button"
+              id="cv-button"
+              download
+              >Start Download</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal -->
+      <div
+        id="certs-modal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="certs-modal-title"
+        hidden
+      >
+        <div class="modal-overlay" data-close></div>
+
+        <div class="modal-dialog" role="document">
+          <button
+            class="modal-close"
+            type="button"
+            aria-label="Close"
+            data-close
+          >
+            ×
+          </button>
+          <h2 id="certs-modal-title">All certifications</h2>
+          <p>Click on a certificate to view/download it.</p>
+
+          <ul class="modal-grid">
+            <li>
+              <a
+                href="files/webdev.pdf"
+                class="grow webdev"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.credly.com/badges/2e38..."
+                class="grow agile"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a href="files/aws.pdf" class="grow aws" target="_blank"></a>
+            </li>
+            <li>
+              <a href="files/aws-2.pdf" class="grow aws-2" target="_blank"></a>
+            </li>
+            <li>
+              <a
+                href="https://www.credly.com/badges/c435..."
+                class="grow lll"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.credly.com/badges/8bba..."
+                class="grow prompt"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a href="files/ce2.pdf" class="grow ce2" target="_blank"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <button id="myBtn" title="Go to top">⤒</button>
+    <div class="nav-overlay" hidden></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
