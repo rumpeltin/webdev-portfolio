@@ -13,6 +13,7 @@ Text Color (White Smoke): #F5F5F5;
   --margin-center: 0 auto;
   --primary-color: #000;
   --secondary-color: #f5f5f5;
+  color-scheme: dark;
 }
 
 * {
@@ -38,6 +39,10 @@ main {
 
 h1 {
   font-size: 45px;
+}
+
+h4 {
+  margin: 25px 0 25px 0;
 }
 
 /* vertical & horizontal lines */
@@ -75,7 +80,7 @@ h1 {
 
 .hl {
   border: solid 1px #f5f5f5;
-  width: 2px;
+  width: 25%;
 }
 
 /* links */
@@ -628,6 +633,10 @@ div.cv {
 
 .contact-section p {
   color: #a0a0a0;
+}
+
+.contact-call, .contact-email, .contact-socials {
+  margin-bottom: 25px;
 }
 
 .webdev-contact-container {
