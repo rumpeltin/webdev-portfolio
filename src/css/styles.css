@@ -492,6 +492,54 @@ div.cv {
   position: relative;
 }
 
+.aws-3 {
+  background-image: url('../assets/img/webdev/aws-cert-3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+  min-height: 225px;
+  min-width: 200px;
+
+  /* !imp for clickable link */
+  position: relative;
+}
+
+.scrum-pspo {
+  background-image: url('../assets/img/webdev/scrum-pspo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+  min-height: 225px;
+  min-width: 200px;
+
+  /* !imp for clickable link */
+  position: relative;
+}
+
+.scrum-psm1 {
+  background-image: url('../assets/img/webdev/scrum-psm1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+  min-height: 225px;
+  min-width: 200px;
+
+  /* !imp for clickable link */
+  position: relative;
+}
+
+.scrum-psm2 {
+  background-image: url('../assets/img/webdev/scrum-psm2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+  min-height: 225px;
+  min-width: 200px;
+
+  /* !imp for clickable link */
+  position: relative;
+}
+
 /* modal core */
 .modal[hidden] {
   display: none;
