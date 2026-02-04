@@ -409,7 +409,7 @@ div.cv {
 
 /* certifications img */
 .webdev {
-  background-image: url('../img/webdev/webdev-cert.png');
+  background-image: url('../assets/img/webdev/webdev-cert.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 225px 150px;
@@ -421,7 +421,7 @@ div.cv {
 }
 
 .agile {
-  background-image: url('../img/webdev/agile-cert.png');
+  background-image: url('../assets/img/webdev/agile-cert.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 180px 190px;
@@ -433,7 +433,7 @@ div.cv {
 }
 
 .ce2 {
-  background-image: url('../img/webdev/ce2.png');
+  background-image: url('../assets/img/webdev/ce2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 225px 150px;
@@ -445,7 +445,7 @@ div.cv {
 }
 
 .prompt {
-  background-image: url('../img/webdev/prompt.png');
+  background-image: url('../assets/img/webdev/prompt.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px 200px;
@@ -457,7 +457,7 @@ div.cv {
 }
 
 .lll {
-  background-image: url('../img/webdev/lll.png');
+  background-image: url('../assets/img/webdev/lll.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px 200px;
@@ -469,7 +469,7 @@ div.cv {
 }
 
 .aws {
-  background-image: url('../img/webdev/aws-cert.png');
+  background-image: url('../assets/img/webdev/aws-cert.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px 200px;
@@ -481,7 +481,7 @@ div.cv {
 }
 
 .aws-2 {
-  background-image: url('../img/webdev/aws-cert-2.png');
+  background-image: url('../assets/img/webdev/aws-cert-2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px 200px;
@@ -563,7 +563,7 @@ div.cv {
 
 /* projects img */
 .todo {
-  background-image: url('../img/webdev/todo.png');
+  background-image: url('../assets/img/webdev/todo.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 175px 225px;
@@ -575,7 +575,7 @@ div.cv {
 }
 
 .pokemon {
-  background-image: url('../img/webdev/pokedex.png');
+  background-image: url('../assets/img/webdev/pokedex.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250px 150px;
@@ -587,7 +587,7 @@ div.cv {
 }
 
 .tatiana {
-  background-image: url('../img/webdev/tatiana.png');
+  background-image: url('../assets/img/webdev/tatiana.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px 250px;
@@ -599,7 +599,7 @@ div.cv {
 }
 
 .jay {
-  background-image: url('../img/webdev/jay.png');
+  background-image: url('../assets/img/webdev/jay.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 250px 250px;
@@ -635,7 +635,9 @@ div.cv {
   color: #a0a0a0;
 }
 
-.contact-call, .contact-email, .contact-socials {
+.contact-call,
+.contact-email,
+.contact-socials {
   margin-bottom: 25px;
 }
 

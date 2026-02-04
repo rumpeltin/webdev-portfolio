@@ -1,0 +1,7 @@
+# Build / generated files
+*.min.js
+*.min.css
+
+# If you later add build folders
+dist/
+build/
