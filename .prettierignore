@@ -1,6 +1,8 @@
 # Build / generated files
 *.min.js
 *.min.css
+package.json
+package-lock.json
 
 # If you later add build folders
 dist/
