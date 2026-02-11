@@ -1,1 +1,26 @@
-{"name":"webdev-portfolio","version":"1.0.0","main":"script.js","scripts":{"format":"prettier --write \"**/*.{html,css,js,json}\"","lint":"eslint .","minify:js":"terser src/js/script.js -o src/js/script.min.js -c -m","minify:css":"cleancss -o src/css/styles.min.css src/css/styles.css","build":"npm run minify:js && npm run minify:css"},"keywords":[],"author":"","license":"ISC","description":"","devDependencies":{"@eslint/js":"^9.35.0","clean-css-cli":"^5.6.3","eslint":"^9.35.0","globals":"^16.4.0","prettier":"^3.6.2"},"dependencies":{"terser":"^5.46.0"}}
+{
+    "name":"webdev-portfolio",
+    "version":"1.0.0",
+    "main":"script.js",
+    "scripts": {
+        "format":"prettier --write \"**/*.{html,css,js}\"",
+        "lint":"eslint .",
+        "minify:js":"terser src/js/script.js -o src/js/script.min.js -c -m",
+        "minify:css":"cleancss -o src/css/styles.min.css src/css/styles.css",
+        "build":"npm run minify:js && npm run minify:css"
+    },
+    "keywords":[],
+    "author":"",
+    "license":"ISC",
+    "description":"",
+    "devDependencies": {
+        "@eslint/js":"^9.35.0",
+        "clean-css-cli":"^5.6.3",
+        "eslint":"^9.35.0",
+        "globals":"^16.4.0",
+        "prettier":"^3.6.2"
+    },
+    "dependencies": {
+        "terser":"^5.46.0"
+    }
+}
