@@ -13,7 +13,8 @@
         "build:html": "cp src/index.html dist/index.html",
         "build:assets": "cp -r src/assets dist/assets",
 
-        "build": "npm run clean && mkdir -p dist/js dist/css && npm run build:js && npm run build:css && npm run build:html"
+        "build": "npm run clean && mkdir -p dist/js dist/css && npm run build:js && npm run build:css && npm run build:html && npm run build:assets"
+
     },
     "keywords":[],
     "author":"",
