@@ -3,11 +3,17 @@
     "version":"1.0.0",
     "main":"script.js",
     "scripts": {
-        "format":"prettier --write \"**/*.{html,css,js}\"",
-        "lint":"eslint .",
-        "minify:js":"terser src/js/script.js -o src/js/script.min.js -c -m",
-        "minify:css":"cleancss -o src/css/styles.min.css src/css/styles.css",
-        "build":"npm run minify:js && npm run minify:css"
+        "format": "prettier --write \"**/*.{html,css,js}\"",
+        "lint": "eslint .",
+
+        "clean": "rm -rf dist",
+
+        "build:js": "terser src/js/script.js -o dist/js/script.min.js -c -m",
+        "build:css": "cleancss -o dist/css/styles.min.css src/css/styles.css",
+        "build:html": "cp src/index.html dist/index.html",
+        "build:assets": "cp -r src/assets dist/assets",
+
+        "build": "npm run clean && mkdir -p dist/js dist/css && npm run build:js && npm run build:css && npm run build:html"
     },
     "keywords":[],
     "author":"",
