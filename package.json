@@ -11,7 +11,7 @@
 
         "build:js": "terser src/js/script.js -o dist/js/script.min.js -c -m",
         "build:css": "cleancss -o dist/css/styles.min.css src/css/styles.css",
-        "build:html": "cp src/index.html dist/index.html && sed -i '' 's/css\\/styles.css/css\\/styles.min.css/g; s/js\\/script.js/js\\/script.min.js/g' dist/index.html",
+        "build:html": "node scripts/build-html.js",
         "build:assets": "cp -r src/assets dist/assets",
 
         "build": "npm run clean && mkdir -p dist/js dist/css && npm run build:js && npm run build:css && npm run build:html && npm run build:assets"
