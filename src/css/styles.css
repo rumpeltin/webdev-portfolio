@@ -614,6 +614,18 @@ div.cv {
   position: relative;
 }
 
+.zahn {
+  background-image: url('../assets/img/webdev/zahn-koegel.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 175px 225px;
+  min-height: 250px;
+  min-width: 250px;
+
+  /* !imp for clickable link */
+  position: relative;
+}
+
 .pokemon {
   background-image: url('../assets/img/webdev/pokedex.png');
   background-repeat: no-repeat;
